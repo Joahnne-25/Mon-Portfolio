@@ -1,6 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=EB+Garamond:ital,wght@1,500;1,600&family=Faster+One&family=Grand+Hotel&family=Sancreek&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 *
 {
     margin: 0%;
@@ -47,12 +45,8 @@ a
     display: flex;
     align-items: center;
     justify-content: space-around;
-
-    font-family: 'EB Garamond', serif;
-    font-size: 50px;
-   /* font-family: 'Faster One', cursive;
-    font-family: 'Grand Hotel', cursive;
-    font-family: 'Sancreek', cursive;*/
+    font-family: 'Potta One', cursive;
+    font-size: 30px;
 }
 button
 {
@@ -116,3 +110,87 @@ h1
     /*width: 20%;*/
     font-size: 30px;
 }
+
+.sec2
+{
+    font-family: sans-serif;
+    margin-top: 50%;
+}
+/*#Création
+{
+    text-align: center;
+    color: blanchedalmond;
+    padd
+}*/
+
+.box-timeline
+{
+    width: 40%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#line
+{
+    width: 2px;
+    height: 1000px; /*j'ai mis 1000 parce que l'autre est bcp trop long*/
+    border:1px solid black ;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+  
+
+
+ .box1
+ {
+    width: 80%;
+    height: 100px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    
+ }   
+
+
+.box2
+{
+    width: 80%;
+    height: 100px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+    margin-top: 10%;
+    min-height: auto;
+}
+.box3
+{
+    width: 80%;
+    height: 100px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+    margin-top: 10%;
+    min-height: auto;
+}
+.box4
+{
+    width: 80%;
+    height: 100px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+    margin-top: 10%; 
+    min-height: auto;
+}
+
+
